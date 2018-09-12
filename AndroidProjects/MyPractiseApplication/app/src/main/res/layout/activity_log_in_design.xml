@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bike_main"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to bike station"
+        android:textSize="14pt"
+        android:layout_gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you have already account on over
+         bike station then please LogIn  "
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edttxt_login_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:layout_marginTop="4pt"
+        android:background="#fff"/>
+    <EditText
+        android:id="@+id/edttxt_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="4pt"
+        android:inputType="textPassword"
+        android:background="#fff" />
+    <Button
+        android:id="@+id/login_button_for_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="4pt"
+        android:background="#f0f0" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you don't have any account on over bike station
+then please click on this button"
+        android:textColor="#f0f"
+        android:layout_marginTop="4pt"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/login_button_for_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="sign up"
+        android:layout_marginTop="4pt"
+        android:background="#f0f0"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All the copy rights are reserved by bike station company"
+        android:textColor="#ff00"
+        android:layout_marginTop="4pt"
+        android:textStyle="bold" />
+</LinearLayout>

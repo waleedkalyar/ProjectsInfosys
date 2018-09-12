@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--Complete exe1 (1) Change the ConstraintLayout to a FrameLayout-->
+    <!--Complete exe1 (7) Remove the line that declares the id, we don't need it-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.waleed.projectsunshine.MainActivity"
+    android:padding="16dp">
+    <!--Complete exe1 (8) Wrap the TextView in a ScrollView-->
+    <!--Complete exe1 (9) Set the ScrollView width to match_parent and the height to wrap_content-->
+
+    <!--Complete exe1 (2) Change the TextView's android:id attribute to tv_weather_data-->
+    <!--Complete exe1 (3) Give the TextView 16dp of padding-->
+    <!--Complete exe1 (4) Set the text size to 20sp-->
+    <!--Complete exe1 (5) Remove all attributes with the word constraint in them-->
+    <!--Complete exe1 (6) Remove the default text from the TextView-->
+  <android.support.v7.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/recyclerview_forcast">
+
+  </android.support.v7.widget.RecyclerView>
+    <!--Complete exe6 (2) Add a TextView that you will show the user if there is an error loading content-->
+    <!--Complete exe6 (3) Make the width and the height wrap_content-->
+    <!--Complete exe6 (4) Give the TextView a default error message stating that an error occurred (use strings.xml)-->
+    <!--Complete exe6 (5) Set the default visibility of the TextView to invisible-->
+<TextView
+    android:layout_width="wrap_content"
+    android:id="@+id/error_msg_display"
+    android:layout_height="wrap_content"
+    android:textSize="22sp"
+    android:text="@string/error_mag"
+    android:visibility="invisible"/>
+    <!--Complete exe6 (12) Add a ProgressBar to show the user content is loading-->
+    <!--Complete exe6 (13) Make the width and height of the ProgressBar 42dp-->
+    <!--Complete exe6 (14) Set the layout_gravity of the ProgressBar to center-->
+    <!--Complete exe6 (15) Set the default visibility of the ProgressBar to invisible-->
+<ProgressBar
+    android:id="@+id/progressbar_show_progress"
+    android:layout_width="42dp"
+    android:layout_height="42dp"
+    android:layout_gravity="center"
+    android:visibility="invisible"/>
+</FrameLayout>

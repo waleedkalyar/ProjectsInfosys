@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">S02.01-Exercise-Networking</string>
+    <string name="url_string">Enter a Query and your URL will shown here</string>
+    <string name="search_hint_string">Enter your URL</string>
+    <string name="search_result_string">Your Search result will shownup here!</string>
+    <string name="search_error_network_string">There is error occour to connect with Internet!</string>
+    <string name="action_refresh">Refresh</string>
+</resources>

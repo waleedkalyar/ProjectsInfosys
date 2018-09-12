@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PractisApplication2.0</string>
+    <string-array name="names_array">
+        <item>Waleed</item>
+        <item>Arslan</item>
+        <item>Khawar</item>
+        <item>Noman</item>
+        <item>Ali</item>
+        <item>Babar</item>
+        <item>Ismail</item>
+        <item>Ibraheem</item>
+        <item>Kashif</item>
+        <item>Danish</item>
+        <item>Raza</item>
+        <item>Akbar</item>
+    </string-array>
+</resources>

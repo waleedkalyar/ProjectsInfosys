@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="6">
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="p1"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:fontFamily="monospace"/>
+<TextView
+    android:id="@+id/day"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="SUN"
+    android:layout_weight="1"
+    android:textSize="20sp"
+    android:fontFamily="monospace"/>
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=",JUN"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:fontFamily="monospace"/>
+    <TextView
+        android:id="@+id/date"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 01"
+        android:textSize="20sp"
+        android:fontFamily="monospace"/>
+    <TextView
+        android:id="@+id/weather_condition"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-CLEAR-"
+        android:textSize="20sp"
+        android:fontFamily="monospace"/>
+    <TextView
+        android:id="@+id/weather_condition_in_numbers"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="31/17"
+        android:textSize="20sp"
+        android:fontFamily="monospace"/>
+</LinearLayout>

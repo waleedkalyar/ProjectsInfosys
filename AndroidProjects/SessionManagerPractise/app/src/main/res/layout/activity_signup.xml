@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:background="@drawable/bg_card">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Signup"
+    android:textSize="35dp"
+    android:textStyle="bold|italic"
+    android:textColor="#FFF"
+    android:layout_gravity="center"
+    android:alpha=".5"/>
+    <EditText
+        android:id="@+id/signup_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:drawableStart="@drawable/person"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"/>
+    <EditText
+        android:id="@+id/signup_fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="FatherName"
+        android:drawableStart="@drawable/person"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"/>
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMail"
+        android:drawableStart="@drawable/email_practise"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"/>
+    <EditText
+        android:id="@+id/signup_adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adress"
+        android:drawableStart="@drawable/adress"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"/>
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:drawableStart="@drawable/lock_password"
+        android:inputType="textPassword"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_custom_shape_byme"
+        app:cardCornerRadius="5dp">
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_custom_shape_byme"
+            android:text="sign up"
+            android:textAllCaps="false"
+            android:textColor="#FFF" />
+    </android.support.v7.widget.CardView>
+<Button
+    android:id="@+id/btn_get_users"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="GET ALL USERS"
+    android:textColor="#e628b9"
+    android:background="@null"
+    android:layout_gravity="end" />
+</LinearLayout>

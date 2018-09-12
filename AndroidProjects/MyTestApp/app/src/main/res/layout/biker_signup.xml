@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bike station signup"
+        android:layout_gravity="center"
+        android:textSize="14pt"
+        android:textColor="#000"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/txtview_incoming_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome"
+        android:textSize="12pt"
+        android:textColor="#ff00"
+        android:textStyle="bold|italic"/>
+    <EditText
+        android:id="@+id/edttxt_signup_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+    <EditText
+        android:id="@+id/edttxt_signup_e_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender:"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="10pt" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"/>
+    <EditText
+        android:id="@+id/edttxt_signup_contectno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contect:NO" />
+    <EditText
+        android:id="@+id/edttxt_signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/signup_button_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:layout_gravity="center"
+        android:background="#f0f0"/>
+</LinearLayout>

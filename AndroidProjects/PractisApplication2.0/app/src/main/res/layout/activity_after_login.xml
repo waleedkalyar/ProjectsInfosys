@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.waleedkalyar.practisapplication20.AfterLoginActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Welcome on Application"
+    android:layout_gravity="center"
+    android:textSize="25dp"
+    android:textColor="@color/colorAccent"
+    android:textStyle="bold|italic"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="This is official site of Zombi kills game"
+    android:layout_gravity="center"
+    android:textSize="20dp"
+    android:textColor="#e20926"
+    android:textStyle="bold|italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here the user Data:"
+        android:textColor="#000"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/zombi_kill"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Profile"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_weight=".25"
+            android:textColor="#48104e"/>
+        <TextView
+            android:id="@+id/user_info_name"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_weight=".25"
+
+            android:textSize="15dp"
+            android:textColor="#040005"/>
+        <TextView
+            android:id="@+id/user_info_email"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-Mail"
+            android:textSize="15dp"
+            android:layout_weight=".25"
+
+            android:textColor="#040005"/>
+        <TextView
+            android:id="@+id/user_info_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adress"
+            android:textSize="15dp"
+            android:layout_weight=".25"
+
+            android:textColor="#040005"/>
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LogOut"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

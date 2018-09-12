@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:icon="@drawable/camera_drawer"
+        android:title="Camera"/>
+<item
+        android:icon="@drawable/gallery"
+        android:title="Gallery"/>
+    <item
+        android:icon="@drawable/photo_album"
+        android:title="Photos"/>
+    <item
+        android:icon="@drawable/slide_show"
+        android:title="Slide show"/>
+    <item
+        android:icon="@drawable/flash_off"
+        android:title="Flash off"/>
+    <item
+        android:icon="@drawable/email_practise"
+        android:title="E-Mail"/>
+
+</group>
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:icon="@drawable/share"
+                android:title="Share"/>
+            <item
+                android:icon="@drawable/send"
+                android:title="Send"/>
+        </menu>
+    </item>
+</menu>

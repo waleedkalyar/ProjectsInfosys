@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PracticeNote</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_cloud_upload">Cloud Upload</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

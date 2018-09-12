@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.waleed.cabshabwithfragments.fragPkg.LoginFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center"
+        android:paddingTop="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical"
+        android:background="#d7c81e">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:background="#ed4d30"
+            android:textColor="#FFF"
+            android:fontFamily="monospace"
+            android:text="Login Please" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_bg"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="monospace"
+            android:hint=" Enter email or name"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_bg"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:hint=" Password"
+            android:inputType="textPassword" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Save Password"
+        android:textColor="#216914"
+        android:fontFamily="monospace"
+        android:textStyle="bold"/>
+</LinearLayout>
+        <Button
+            android:id="@+id/button"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:background="#ed4d30"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/button2"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Create new Account?"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="#216914"
+                android:background="@null"/>
+            <Button
+                android:id="@+id/button3"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="   Forgot password?"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="#216914"
+                android:background="@null"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ServerApp</string>
+    <string name="get_users_connection_url">http://192.168.2.102:80/serverApp/getAllUsers.php</string>
+    <string name="insert_new_user_url">http://192.168.2.102:80/byMe/insertNewUser.php</string>
+    <string name="chack_login_new_user_url">http://192.168.2.102:80/practise/chackForLogin.php</string>
+    <string name="chack_for_login2_user_url">http://192.168.2.102:80/serverApp/basicLogin.php</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string-array name="cities_international">
+        <item>SARGODHA</item>
+        <item>LAHORE</item>
+        <item>KARACHI</item>
+        <item>QUETA</item>
+        <item>PESHAWAR</item>
+        <item>ISLAMABAD</item>
+        <item>NEW-DELI</item>
+        <item>MUMBAI</item>
+        <item>KOLKTA</item>
+        <item>GOA</item>
+        <item>NEW-YORK</item>
+        <item>WASHINGTAN</item>
+        <item>MKAH</item>
+        <item>MADINA</item>
+        <item>RIAZ</item>
+        <item>DUBAI</item>
+        <item>ABU-DEBI</item>
+        <item>ENGLAND</item>
+        <item>SPAIN</item>
+        <item>MULTAN</item>
+    </string-array>
+    <string name="app_name">MyTestApp</string>
+</resources>

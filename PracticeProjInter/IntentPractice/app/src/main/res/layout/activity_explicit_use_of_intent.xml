@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.waleed.intentpractice.ExplicitUseOfIntent">
+<Button
+    android:layout_weight="1"
+    android:id="@+id/btn_open_web"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="open a web page"/>
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btn_open_Map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open a Google map"/>
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btn_share_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="share a text content"/>
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btn_create_own"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create your own"/>
+</LinearLayout>
